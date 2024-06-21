@@ -1,0 +1,7 @@
+.image{
+    width: 400px;
+}
+const UserCard{
+    display: flex;
+    background-color: aqua;
+}

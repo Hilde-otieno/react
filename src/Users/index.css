@@ -1,0 +1,23 @@
+.Users{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 250px;
+    padding: 100px;
+}
+.Users h2{
+    text-align:auto;
+    font-size: large;
+    font-weight:bolder;
+    color:black;
+}
+.Users .user-card{
+    grid-row: inherit;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+.Users .Users-card h3{
+    font-size:Large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
